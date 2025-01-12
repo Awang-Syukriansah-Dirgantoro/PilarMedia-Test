@@ -50,7 +50,15 @@ Install PHP dependencies using Composer:
 composer install
 ```
 
-### 5. Run the Development Server
+### 5. Migrate Database
+
+Run the Laravel Migration:
+
+```bash
+php artisan migrate
+```
+
+### 6. Run the Development Server
 
 Start the backend development server with the following command:
 
@@ -109,20 +117,3 @@ This project is built using the following technologies:
 - **Tailwind CSS**: A utility-first CSS framework used for building responsive and customizable user interfaces.
 - **MySQL**: A relational database used for managing and storing project data.
 
----
-
-## Contributing
-
-We welcome contributions to this project! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to your branch (`git push origin feature-name`).
-5. Create a new pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
